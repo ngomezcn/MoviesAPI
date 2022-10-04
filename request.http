@@ -1,0 +1,47 @@
+GET http://127.0.0.1:8080/all
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8080/id/1
+Content-Type: application/json
+
+###
+POST http://127.0.0.1:8080/add
+Content-Type: application/json
+
+{
+  "id": "1",
+  "title": "Rainbow Six",
+  "year": "2016",
+  "gender": "FPS",
+  "director": "BugiSoft"
+}
+
+###
+POST http://127.0.0.1:8080/id/add/1
+Content-Type: application/json
+
+{
+  "id": "1",
+  "movie_id": "1",
+  "comment": "asfasdfsaf",
+  "creation_date": "12/12/12"
+
+}
+
+###
+POST http://127.0.0.1:8080/update/id/1
+Content-Type: application/json
+
+{
+  "id": "1",
+  "title": "Rainbow Six",
+  "year": "2016",
+  "gender": "FPS",
+  "director": "BugiSoft"
+}
+
+###
+POST http://127.0.0.1:8080/update/id/1
+Content-Type: application/json
+
