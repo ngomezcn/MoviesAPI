@@ -11,10 +11,10 @@ Content-Type: application/json
 
 {
   "id": "1",
-  "title": "Rainbow Six",
-  "year": "2016",
-  "gender": "FPS",
-  "director": "BugiSoft"
+  "title": "Hobbit",
+  "year": "2004",
+  "gender": "ZZZ",
+  "director": "IDK"
 }
 
 ###
@@ -35,13 +35,23 @@ Content-Type: application/json
 
 {
   "id": "1",
-  "title": "Rainbow Six",
-  "year": "2016",
-  "gender": "FPS",
+  "title": "RRRainbow Six",
+  "year": "2345016",
+  "gender": "FPS345",
   "director": "BugiSoft"
 }
 
 ###
-POST http://127.0.0.1:8080/update/id/1
+DELETE http://127.0.0.1:8080/delete/id/1
 Content-Type: application/json
+
+{
+  "id": "1",
+  "title": "RRRainbow Six",
+  "year": "2345016",
+  "gender": "FPS345",
+  "director": "BugiSoft"
+}
+
+
 
