@@ -24,6 +24,8 @@ repositories {
 }
 
 dependencies {
+    implementation("de.brudaswen.kotlinx.serialization:kotlinx-serialization-csv:2.0.0")
+
     implementation("io.ktor:ktor-server-html-builder:$ktor_version")
     implementation("io.ktor:ktor-server-core-jvm:$ktor_version")
     implementation("io.ktor:ktor-server-content-negotiation-jvm:$ktor_version")
